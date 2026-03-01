@@ -1,0 +1,72 @@
+.sec1{
+    width: 84%;
+    height: 98vh;
+    padding: 0px 8%;
+
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../images/aha-instant-yao-guang-v0-nksje7dwvnag1.webp);
+    background-size: cover;
+}
+.sec1{
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.btns{
+    display: flex;
+    gap: 15px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 5px ;
+    border: none;
+    background-color: black;
+    font-size: 18px;
+
+}
+/* hover - изменение стилей при наведение на кнопку */
+button:hover{
+    box-shadow: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha)
+
+}
+.left-img{
+border-radius: 15px;
+
+}
+.right-content{
+    width: 30px;
+}
+.right-content > h2{
+    font-family: "tiny5"
+}
+.sec3{
+    display: flex;
+    width: 80%;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.card{
+width: 20%;
+background-color: aliceblue;
+padding: 15px;
+border-radius: 10px;
+}
+.card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card > p{
+color: black;
+margin-bottom: 50px;
+}
+
+.card > a > button{
+width: 100%;
+}
