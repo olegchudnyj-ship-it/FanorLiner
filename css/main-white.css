@@ -1,3 +1,18 @@
+ body{
+    background-color: lab(100% 0.01 -0.01);
+ }
+ a, p, button, h1, h2, h3{
+
+    font-family: "Montserrat", sans-serif;
+    color: rgb(91, 208, 255);
+   }
+
+   header{
+    height: 8vh;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+   }
 .sec1{
     width: 84%;
     height: 98vh;

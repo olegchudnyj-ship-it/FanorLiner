@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+a, p, button{
+
+    font-family: "Montserrat", sans-serif;
+    color: rgb(91, 208, 255);
+   }
+   header{
+    height: 8vh;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+   }
+.sec1{
+
+    width: 84%;
+    height: 98vh;
+    padding: 0px 8%;
+
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../images/aha-instant-yao-guang-v0-nksje7dwvnag1.webp);
+    background-size: cover;
+}
+.sec1{
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+themes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.themes > #green, #blue, #purple #theme-toggtle{
+    width: 35px;
+    height: 35px;
+    padding:10px ;
+    border-radius: 100px;
+}
+.themes > #theme-toggtle{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.btns{
+    display: flex;
+    gap: 15px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 5px ;
+    border: none;
+    background-color: black;
+    font-size: 18px;
+
+}
+/* hover - изменение стилей при наведение на кнопку */
+button:hover{
+    box-shadow: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha)
+
+}
+.left-img{
+border-radius: 15px;
+
+}
+.right-content{
+    width: 30px;
+}
+.right-content > h2{
+    font-family: "tiny5"
+}
+.sec3{
+    display: flex;
+    width: 80%;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.card{
+width: 20%;
+background-color: aliceblue;
+padding: 15px;
+border-radius: 10px;
+}
+.card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card > p{
+color: black;
+margin-bottom: 50px;
+}
+
+.card > a > button{
+width: 100%;
+}
+
+.sec4{
+    width: 80%;
+    padding: 10% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5%;
+    height: 100vh;
+    text-align: center;
+}
+.sec4 > h2{
+    font-family: "Tiny5";
+    color: black;
+    letter-spacing: 5px;
+    font-size: 50%;
+    margin: 0;
+}
+
+.sec4 > .rov{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4 > .rov > img{
+    width: 18%;
+    border-radius: 10px;
+}
+footer{
+    width: 80%;
+    padding: 2.5% 10%;
+    border: 1px solid black ;
+    display: flex;
+    justify-content: space-between;
+}
+footer > .column{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer > .column1{
+    gap: 0px;
+}
+footer > .column > a{
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+    width: fit-content;
+}
+
+footer > .column > a:hover{
+   color: black;
+   border-bottom: 1px solid black 
+}
