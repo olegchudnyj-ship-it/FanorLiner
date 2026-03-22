@@ -57,13 +57,13 @@ button{
     padding: 10px 15px;
     border-radius: 5px ;
     border: none;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     font-size: 18px;
 
 }
 /* hover - изменение стилей при наведение на кнопку */
 button:hover{
-    box-shadow: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha)
+    box-shadow: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), alpha)
 
 }
 .left-img{
@@ -154,4 +154,11 @@ footer > .column > a{
 footer > .column > a:hover{
    color: black;
    border-bottom: 1px solid black 
+}
+.right-header{
+    display: flex;
+    gap: 20px;
+}
+.right-header > a > button{
+    padding: 10px 20px;
 }
